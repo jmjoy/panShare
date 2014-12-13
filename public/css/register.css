@@ -1,0 +1,11 @@
+body { background: url("/public/img/bg.jpg") no-repeat fixed center; 
+		background-size: 100%; }
+#spliter { width: 1000px; height: 2px; background: #ffffff; }
+#container { padding: 20px; margin-top: 50px; width:1000px; 
+		background: rgba(255, 255, 255, 0.3); 
+		box-shadow: 5px 5px 10px #555555; }
+#container_table td {  padding: 5px 10px;  }
+.table_left { text-align: right; }
+.table_input { padding: 0 10px; width: 250px; height: 35px; outline: none; }
+.table_err { width: 300px; color: #555555; }
+#submit_btn { margin: 20px; width: 100px; height: 35px; cursor: pointer; }
