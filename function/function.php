@@ -65,3 +65,7 @@ function display($path = null) {
 		require 'view/' . C('CONTROLLER_NAME') . '/' . C('METHOD_NAME') . '.php';
 	}
 }
+
+function sayHello() {
+	echo "hello";
+}
